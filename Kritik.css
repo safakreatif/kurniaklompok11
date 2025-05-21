@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf7f0;
+  padding-top: 80px;
+  
+}
+
+header {
+  background-color: #d8d2c2;
+  position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 100;
+ box-shadow: 0 4px 10px rgba(0,0,0.1);
+}
+
+nav {
+ max-width: 1200px; 
+ margin: auto;
+ padding: 2rem 1rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  
+}
+
+.teks_nav {
+  font-size: auto;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.nav1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: #f4f4f4;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.teks_nav img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.link a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.5s;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf7f0;
+  padding-top: 80px;
+  
+}
+
+.gambar img {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(50%);
+}
+/* kritik.css */
+
+.gambar {
+  float: right; 
+  margin-left: 20px
+  width: 300px; 
+}
+
+.gambar img {
+  width: 100%; /
+  height: auto;
+}
+
+/*hdhdhdudhdhfjrhbfhfhfhfhfudhdueieeuyeyrhxbxjxjxbxhxuxjxhdjdh*\
+
+
+

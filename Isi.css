@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf7f0;
+  padding-top: 80px;
+}
+
+header {
+  background-color: #d8d2c2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teks_nav {
+  font-size: 1rem; /* Ganti nilai dengan ukuran yang sesuai */
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.nav1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: #333; /* Warna lebih gelap untuk kontras */
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.teks_nav img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.link a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.5s;
+}
+.isi {
+  padding:1rem;
+}
+
+
+
+.isi p {
+  text-align: justify;
+  text-indent: 30px;
+}
+.isi h1 {
+  text-align: center;
+}

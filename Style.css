@@ -1,0 +1,153 @@
+/* Reset dasar */
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Root variable */
+:root {
+    --primary-color: #2c3855;
+    --primary-color-dark: #435681;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --extra-light: #f3f4f6;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+
+/* Gaya dasar */
+body {
+    background-color: #faf7f0;
+    font-family: "Poppins", serif;
+    padding-top: 80px;
+}
+
+/* Header dan Navigasi */
+header {
+    background-color: #d8d2c2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teks_nav {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.teks_nav img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link a {
+    font-weight: 500;
+    color: var(--text-light);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* Container Umum */
+.section_container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+.section_header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+.isi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: var(--max-width);
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.isi a {
+    text-decoration: none;
+    color: black;
+}
+
+.konten_berita {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s;
+    max-width: 600px;
+    margin: auto;
+}
+
+.konten_berita:hover {
+    transform: translateY(-5px);
+}
+
+.konten_berita img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.berita_content {
+    padding: 1rem;
+}
+
+.popular_card_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.popular_card_header h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: pink;
+}
+
+.berita_content p {
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+}

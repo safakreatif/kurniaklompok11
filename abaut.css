@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf7f0;
+  padding-top: 80px;
+  
+}
+
+header {
+  background-color: #d8d2c2;
+  position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 100;
+ box-shadow: 0 4px 10px rgba(0,0,0.1);
+}
+
+nav {
+ max-width: 1200px; 
+ margin: auto;
+ padding: 2rem 1rem;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  
+}
+
+.teks_nav {
+  font-size: auto;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.nav1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: #f4f4f4;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.teks_nav img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.link a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.client_grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.client_card {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+}
+.client_card img {
+    max-width: 80px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+}
+
+.client_card p {
+    text-align: left;
+    color: black;
+}
+
+.contact_info {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact_info p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+@media (max-width: 600px){
+  client_grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+  }

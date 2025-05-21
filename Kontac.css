@@ -1,0 +1,160 @@
+/* Reset Default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Kontak */
+.contac {
+  min-height: 100vh;
+  background-color: #ef8f0f;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contac-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.contac-form {
+  text-align: left;
+}
+
+.contac-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #45a049;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.contac-info {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.contac-info p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.contac-info i {
+  color: #4caf50;
+  margin-right: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .contac-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Body */
+body {
+  background-color: #faf7f0;
+  padding-top: 80px;
+}
+
+/* Header */
+header {
+  background-color: #d8d2c2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teks_nav {
+  font-size: auto;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.nav1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: #f4f4f4;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.teks_nav img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.link a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.5s;
+}
